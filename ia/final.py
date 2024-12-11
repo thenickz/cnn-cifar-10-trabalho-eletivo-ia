@@ -4,7 +4,7 @@ from tensorflow.keras import datasets, layers, models
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 import matplotlib.pyplot as plt
 import numpy as np
-from utils import Dataset  # Classe Dataset deve estar definida no arquivo utils
+from ia.utils import Dataset  # Classe Dataset deve estar definida no arquivo utils
 from sklearn.metrics import classification_report, confusion_matrix
 
 # Classes do dataset CIFAR-10 (em português)
