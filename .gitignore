@@ -1,0 +1,8 @@
+# Ignorar a pasta cifar-10-batches-py
+cifar-10-batches-py/
+
+# Ignorar o arquivo .tar.gz
+*.tar.gz
+
+# Ignorar a pasta __pycache__
+__pycache__/
