@@ -1,4 +1,8 @@
 # Importação das bibliotecas necessárias
+from dependecies import install_dependecies
+install_dependecies()
+
+
 import tensorflow as tf
 from tensorflow.keras import datasets, layers, models
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint

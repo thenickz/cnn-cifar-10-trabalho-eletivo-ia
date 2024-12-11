@@ -1,9 +1,9 @@
-import tensorflow as tf
-from tensorflow.keras import datasets, layers, models
 import matplotlib.pyplot as plt
 import numpy as np
 
+
 CLASSES = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+
 
 class Dataset:
     def __init__(self, x, y):
@@ -44,6 +44,7 @@ class Dataset:
         raise TypeError("Can only add another Dataset instance.")
 
 
+# debug
 def plot_sample(dataset, index):
     x = dataset.x
     y = dataset.y
