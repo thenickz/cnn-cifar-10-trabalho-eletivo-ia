@@ -47,6 +47,6 @@ class Dataset:
 def plot_sample(dataset, index):
     x = dataset.x
     y = dataset.y
-    plt.figure(figsize = (15, 2))
+    plt.figure(figsize=(15, 2))
     plt.imshow(x[index])
     plt.xlabel(CLASSES[y[index][0]])
